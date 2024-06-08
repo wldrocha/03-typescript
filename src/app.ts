@@ -6,6 +6,6 @@ const heroes = [
 
 const findHero = (id: number) => heroes.find(hero => hero.id === id)
 
-const hero = findHero(4)
+const hero = findHero(3)
 
 console.log(hero?.name ?? 'Hero not found')
